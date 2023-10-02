@@ -1,0 +1,33 @@
+.item-list{
+   
+  
+   display: flex;
+   
+
+   .left{
+      
+      
+      
+      
+     
+      
+      
+      
+      .filterItem{
+         display: flex;
+         flex-direction: column;
+         flex: 1;
+        position: sticky;
+         margin-left: 20px;
+         margin-bottom: 10px;
+      }
+   }
+   .right{
+      flex:3;
+      display: flex; 
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin : 50px 100px;
+   }
+}
